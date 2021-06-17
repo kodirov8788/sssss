@@ -1,0 +1,546 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+body {}
+
+.top-line {
+    width: 85%;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #0f1d2c transparent;
+}
+
+.top-nav {
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+
+.top-nav-1 {
+    display: grid;
+    place-items: center;
+}
+
+.top-nav-2 {
+
+    width: 60%;
+    padding: 10px;
+    padding-left: 10em;
+
+}
+
+.top-nav-2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0 20px 40px;
+}
+
+.top-nav-2 ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0f1d2c;
+    font-weight: 200;
+}
+
+.top-nav-2 ul li a:hover {
+    color: rgb(15, 142, 146);
+    transition: 0.5s;
+}
+
+#banner-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+
+}
+
+#banner-1 .text {
+    flex: 50%;
+    background-color: #282e40;
+    height: 76vh;
+}
+
+#banner-1 .text h1,
+p {
+    position: relative;
+    top: 30%;
+    left: 20%;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+#banner-1 .text h1 span {
+    color: #52a1f7;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#banner-1 .text p {
+    font-family: sans-serif;
+
+}
+
+#banner-1 .text h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+#banner-1 .text button {
+    position: absolute;
+    bottom: -50px;
+    left: 10%;
+    font-size: 20px;
+    padding: 15px 60px;
+    background-color: #0f1d2c;
+    color: #FFF;
+}
+
+#banner-1 .text button:hover {
+    background-color: #52a1f7;
+    color: #FFF;
+    transition: 0.5S;
+
+}
+
+#banner-1 .picture {
+    flex: 50%;
+    position: relative;
+}
+
+
+.banner-1-back {
+    width: 100%;
+    height: 76vh;
+    border-style: solid;
+    border-width: 500px 0 0 550px;
+    border-color: transparent #282e40;
+    position: relative;
+    z-index: 0;
+}
+
+.picture img {
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 80px;
+}
+
+/* Banner-2 */
+#banner-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+#banner-2 .text {
+    flex: 50%;
+    background-color: #FFF;
+    height: 76vh;
+    width: 50%;
+    margin: auto;
+}
+
+#banner-2 .text h1 {
+    position: relative;
+    top: 0;
+    left: 20%;
+    color: #000;
+    font-family: sans-serif;
+}
+
+
+#banner-2 .text p {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #000;
+    width: 70%;
+    word-wrap: break-word;
+    line-height: 30px;
+
+}
+
+#banner-2 .text h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+#banner-2 .text button {
+    position: relative;
+    bottom: -10%;
+    left: 20%;
+    font-size: 20px;
+    padding: 15px 60px;
+    background-color: rgb(14, 11, 56);
+    color: #fff;
+}
+
+#banner-2 .text button:hover {
+    background-color: #52a1f7;
+    color: #FFF;
+    transition: 0.5S;
+
+}
+
+#banner-2>.picture {
+    flex: 50%;
+    position: relative;
+}
+
+#banner-2>.picture img {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 70px;
+}
+
+
+/* Banner-3 */
+#banner-3 {
+    width: 90%;
+    height: 80vh;
+    margin: 0 10% 10% 0;
+    background-color: #0f1d2c;
+    /* overflow-x: hidden; */
+}
+
+#banner-3 h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 25px;
+}
+
+#banner-3 .pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 10%;
+    place-items: center;
+    color: #fff;
+    text-align: center;
+
+}
+
+#banner-3 .pic h1 {
+    margin: 0;
+    padding: 0%;
+}
+
+#banner-3 .pic p {
+    margin-right: 10em;
+    color: rgb(97, 232, 245);
+}
+
+#banner-3 .pic img {
+    height: 30vh;
+    width: 100%;
+    margin-top: 0;
+
+
+
+}
+
+/* Banner-4 */
+#banner-4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+
+
+}
+
+#banner-4 .text {
+    flex: 50%;
+    background-color: #FFF;
+    height: 76vh;
+    width: 50%;
+    margin: auto;
+
+}
+
+#banner-4 .text h1 {
+    position: relative;
+    top: 0;
+    left: 20%;
+    color: #000;
+    font-family: sans-serif;
+}
+
+
+#banner-4 .text p {
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #000;
+    opacity: 0.7;
+    width: 90%;
+    word-wrap: break-word;
+    line-height: 30px;
+
+}
+
+#banner-4 .text h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding-bottom: 25px;
+    color: #52a1f7;
+}
+
+#banner-4 .text button {
+    position: relative;
+    bottom: -10%;
+    left: 20%;
+    font-size: 20px;
+    padding: 15px 60px;
+    background-color: rgb(14, 11, 56);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+#banner-4 .text button:hover {
+    background-color: #52a1f7;
+    color: #FFF;
+    transition: 0.5S;
+
+}
+
+#banner-4>.picture {
+    flex: 50%;
+    position: relative;
+
+}
+
+#banner-4>.picture img {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 70px;
+    height: 90vh;
+}
+
+/* Banner-5 */
+#banner-5 {
+    width: 90%;
+    height: 100vh;
+    margin: 0 0 0 10%;
+    background-color: #0f1d2c;
+    /* overflow-x: hidden; */
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+#banner-5>h1 {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#banner-5 .pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    place-items: center;
+    color: #fff;
+    text-align: center;
+    margin-right: 10%;
+    position: absolute;
+    left: 110px;
+}
+
+#banner-5 .pic .blog-back-1 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+#banner-5 .pic .blog-back-1 img {
+    width: 100%;
+    height: auto;
+}
+
+#banner-5 .pic .blog-back-1 .blog-1 {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    margin-bottom: 0;
+    width: 0;
+    height: 150px;
+    border-style: solid;
+    border-width: 50px 0 0 500px;
+    border-color: transparent transparent transparent #2edfe6;
+    z-index: 1;
+}
+
+#banner-5 .pic .blog-back-1 p {
+    z-index: 2;
+    position: relative;
+    word-wrap: break-word;
+    left: 0;
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+    line-height: 25px;
+}
+
+#banner-5 .pic .blog-back-1 span {
+    color: #000;
+}
+
+/* Banner-2 */
+#banner-6 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./fruit_img.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#banner-6>div>h1 {
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+}
+
+#banner-6>div>h1 span {
+    color: #52a1f7;
+    font-weight: 600;
+}
+
+#banner-6>div>ul {
+    margin-top: 20px;
+}
+
+#banner-6>div>ul>input {
+    padding: 30px;
+    font-size: 15px;
+    width: 70%;
+    background-color: #0f1d2c;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    border: none;
+}
+
+#banner-6>div>ul>.ul-6 {
+    padding-bottom: 100px;
+}
+
+#banner-6>div {
+    width: 60%;
+    margin: 20px 40px 15px 51%;
+}
+
+#banner-6 button {
+    left: 20%;
+    font-size: 20px;
+    padding: 20px 100px;
+    background-color: rgb(19, 215, 233);
+    color: rgb(24, 13, 13);
+    outline: none;
+    border: none;
+}
+
+#banner-6 button:hover {
+    background-color: #068197;
+    color: #FFF;
+    transition: 0.2S;
+}
+
+/* Footer section */
+#footer-1 {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 60vh;
+    width: 100%;
+    background-color: #0f1d2c;
+    padding: 5%;
+    color: #fff;
+
+}
+
+.footer-nav {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+
+}
+
+.footer-nav ul li {
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.footer-nav>ul .li-1>img {
+    max-width: 200%;
+    width: 60%;
+    margin: auto;
+    padding: 0 25px 0 0;
+    margin-bottom: 20px;
+}
+
+.footer-nav>ul .li-1 {
+    padding: 0;
+    width: auto;
+    display: flex;
+}
+
+.footer-text-3>.footer-nav>ul {
+    font-size: 20px;
+    font-weight: 0;
+    font-family: sans-serif;
+    width: 13em;
+    word-wrap: break-word;
+}
+
+
+.footer-text-4>p {
+    font-family: sans-serif;
+    padding: 15px 0;
+}
+
+.footer-text-4 input {
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.footer-text-4 button {
+    left: 20%;
+    font-size: 15px;
+    padding: 15px 25px;
+    color: #000;
+    background-color: rgb(14, 161, 161);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
